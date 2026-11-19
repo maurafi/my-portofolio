@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <linearGradient id="palBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#062016"/>
+      <stop offset="100%" stop-color="#02100b"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#palBg)" rx="16"/>
+  <!-- Title bar -->
+  <rect x="40" y="35" width="720" height="45" rx="8" fill="#064e3b" stroke="#047857" stroke-width="1"/>
+  <text x="65" y="63" fill="#34d399" font-family="sans-serif" font-size="16" font-weight="700">Palmora · Blockchain-Based Palm Oil Traceability</text>
+  <text x="580" y="63" fill="#a7f3d0" font-family="sans-serif" font-size="12">Juara 1 Business Plan</text>
+
+  <!-- Supply chain flowchart -->
+  <!-- Block 1 -->
+  <rect x="50" y="115" width="140" height="135" rx="10" fill="#064e3b" stroke="#10b981" stroke-width="1"/>
+  <text x="65" y="145" fill="#6ee7b7" font-family="sans-serif" font-size="13" font-weight="bold">1. Plantation</text>
+  <text x="65" y="170" fill="#d1fae5" font-family="sans-serif" font-size="11">Harvest Batch ID</text>
+  <text x="65" y="190" fill="#a7f3d0" font-family="sans-serif" font-size="11">GPS &amp; Geo-tag</text>
+  <text x="65" y="210" fill="#a7f3d0" font-family="sans-serif" font-size="11">TBS Quality Log</text>
+  <text x="65" y="235" fill="#34d399" font-family="sans-serif" font-size="10">Hash: 0x8a...31</text>
+
+  <!-- Arrow 1 -->
+  <path d="M195,182 L225,182" stroke="#10b981" stroke-width="2" stroke-dasharray="4"/>
+
+  <!-- Block 2 -->
+  <rect x="230" y="115" width="140" height="135" rx="10" fill="#064e3b" stroke="#10b981" stroke-width="1"/>
+  <text x="245" y="145" fill="#6ee7b7" font-family="sans-serif" font-size="13" font-weight="bold">2. Mill (PKS)</text>
+  <text x="245" y="170" fill="#d1fae5" font-family="sans-serif" font-size="11">Processing Log</text>
+  <text x="245" y="190" fill="#a7f3d0" font-family="sans-serif" font-size="11">CPO Extraction %</text>
+  <text x="245" y="210" fill="#a7f3d0" font-family="sans-serif" font-size="11">Weight Scaling</text>
+  <text x="245" y="235" fill="#34d399" font-family="sans-serif" font-size="10">Hash: 0x4f...9c</text>
+
+  <!-- Arrow 2 -->
+  <path d="M375,182 L405,182" stroke="#10b981" stroke-width="2" stroke-dasharray="4"/>
+
+  <!-- Block 3 -->
+  <rect x="410" y="115" width="140" height="135" rx="10" fill="#064e3b" stroke="#10b981" stroke-width="1"/>
+  <text x="425" y="145" fill="#6ee7b7" font-family="sans-serif" font-size="13" font-weight="bold">3. Refinery</text>
+  <text x="425" y="170" fill="#d1fae5" font-family="sans-serif" font-size="11">Quality Analysis</text>
+  <text x="425" y="190" fill="#a7f3d0" font-family="sans-serif" font-size="11">RSPO Compliance</text>
+  <text x="425" y="210" fill="#a7f3d0" font-family="sans-serif" font-size="11">Derivatives Prep</text>
+  <text x="425" y="235" fill="#34d399" font-family="sans-serif" font-size="10">Hash: 0x7e...1b</text>
+
+  <!-- Arrow 3 -->
+  <path d="M555,182 L585,182" stroke="#10b981" stroke-width="2" stroke-dasharray="4"/>
+
+  <!-- Block 4 -->
+  <rect x="590" y="115" width="155" height="135" rx="10" fill="#064e3b" stroke="#10b981" stroke-width="1"/>
+  <text x="605" y="145" fill="#6ee7b7" font-family="sans-serif" font-size="13" font-weight="bold">4. Distribution</text>
+  <text x="605" y="170" fill="#d1fae5" font-family="sans-serif" font-size="11">QR Code Tag</text>
+  <text x="605" y="190" fill="#a7f3d0" font-family="sans-serif" font-size="11">Consumer Scan</text>
+  <text x="605" y="210" fill="#a7f3d0" font-family="sans-serif" font-size="11">Audit Trail Record</text>
+  <text x="605" y="235" fill="#34d399" font-family="sans-serif" font-size="10">Verified Trace</text>
+
+  <!-- Bottom summary box -->
+  <rect x="50" y="275" width="695" height="135" rx="12" fill="#042f2e" stroke="#0d9488" stroke-width="1"/>
+  <text x="75" y="308" fill="#2dd4bf" font-family="sans-serif" font-size="15" font-weight="bold">Immutable Distributed Ledger Architecture</text>
+  <text x="75" y="333" fill="#ccfbf1" font-family="sans-serif" font-size="12.5">Setiap perpindahan komoditas sawit dicatat ke dalam ledger terdesentralisasi yang tahan manipulasi.</text>
+  <text x="75" y="358" fill="#99f6e4" font-family="sans-serif" font-size="12">Memberikan kepastian legalitas lahan, kepatuhan sertifikasi keberlanjutan, dan transparansi distribusi komprehensif.</text>
+  <text x="75" y="388" fill="#5eead4" font-family="sans-serif" font-size="11">Peran: Project Leader · Analisis Kebutuhan Sistem &amp; Model Bisnis Transparansi Komoditas</text>
+</svg>

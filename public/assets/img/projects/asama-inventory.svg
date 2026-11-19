@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <linearGradient id="asamaBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#asamaBg)" rx="16"/>
+  <!-- Title bar -->
+  <rect x="40" y="35" width="720" height="45" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="65" y="63" fill="#38bdf8" font-family="sans-serif" font-size="16" font-weight="700">PT Asama Indonesia Manufacturing · IT Inventory &amp; Traceability</text>
+  <text x="590" y="63" fill="#10b981" font-family="sans-serif" font-size="12">IT Operations &amp; Admin</text>
+
+  <!-- Box 1: Web Inventory Assets -->
+  <rect x="40" y="105" width="225" height="295" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="60" y="135" fill="#e2e8f0" font-family="sans-serif" font-size="14" font-weight="bold">Web Inventory System</text>
+  <rect x="55" y="155" width="195" height="45" rx="6" fill="#0f172a"/>
+  <text x="65" y="175" fill="#94a3b8" font-family="sans-serif" font-size="11">Hardware Asset Master</text>
+  <text x="65" y="192" fill="#38bdf8" font-family="sans-serif" font-size="11">PC / Laptop / Server / Printer</text>
+  <rect x="55" y="210" width="195" height="45" rx="6" fill="#0f172a"/>
+  <text x="65" y="230" fill="#94a3b8" font-family="sans-serif" font-size="11">Network &amp; Peripherals</text>
+  <text x="65" y="247" fill="#38bdf8" font-family="sans-serif" font-size="11">Switch / AP / IP Assignment</text>
+  <rect x="55" y="265" width="195" height="65" rx="6" fill="#0f172a"/>
+  <text x="65" y="285" fill="#94a3b8" font-family="sans-serif" font-size="11">Status Verifikasi Fisik</text>
+  <text x="65" y="305" fill="#22c55e" font-family="sans-serif" font-size="12" font-weight="bold">✓ Sinkronisasi Terdata</text>
+  <text x="65" y="320" fill="#94a3b8" font-family="sans-serif" font-size="10">Audit kelengkapan aset IT</text>
+
+  <!-- Box 2: Connection Arrow -->
+  <path d="M275,250 L305,250" stroke="#38bdf8" stroke-width="2" stroke-dasharray="4"/>
+
+  <!-- Box 3: Change Management Mapping -->
+  <rect x="315" y="105" width="445" height="295" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="335" y="135" fill="#e2e8f0" font-family="sans-serif" font-size="14" font-weight="bold">Asset — Change Management Traceability Flow</text>
+  
+  <rect x="335" y="155" width="405" height="70" rx="8" fill="#0f172a" stroke="#475569" stroke-width="1"/>
+  <text x="355" y="180" fill="#f59e0b" font-family="sans-serif" font-size="13" font-weight="bold">Change Request Documentation</text>
+  <text x="355" y="200" fill="#94a3b8" font-family="sans-serif" font-size="11">Penelusuran form pembaruan spesifikasi, mutasi perangkat, atau perbaikan suku cadang.</text>
+  <text x="355" y="215" fill="#cbd5e1" font-family="sans-serif" font-size="11">Menghubungkan tiket perbaikan dengan nomor identitas perangkat pada inventory.</text>
+
+  <rect x="335" y="235" width="405" height="70" rx="8" fill="#0f172a" stroke="#475569" stroke-width="1"/>
+  <text x="355" y="260" fill="#38bdf8" font-family="sans-serif" font-size="13" font-weight="bold">Operational Troubleshoot Support</text>
+  <text x="355" y="280" fill="#94a3b8" font-family="sans-serif" font-size="11">Dukungan investigasi dan resolusi kendala teknis pengguna (hardware &amp; software).</text>
+  <text x="355" y="295" fill="#cbd5e1" font-family="sans-serif" font-size="11">Pencatatan riwayat penanganan untuk meminimalkan waktu henti operasional.</text>
+
+  <rect x="335" y="315" width="405" height="70" rx="8" fill="#0f172a" stroke="#475569" stroke-width="1"/>
+  <text x="355" y="340" fill="#10b981" font-family="sans-serif" font-size="13" font-weight="bold">IT Administration Data Control</text>
+  <text x="355" y="360" fill="#94a3b8" font-family="sans-serif" font-size="11">Kerahasiaan dan integritas data internal perusahaan terjaga secara ketat.</text>
+  <text x="355" y="375" fill="#cbd5e1" font-family="sans-serif" font-size="11">Menghasilkan alur kontrol inventaris yang lebih rapi dan terverifikasi.</text>
+</svg>
