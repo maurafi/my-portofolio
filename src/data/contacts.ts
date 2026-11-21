@@ -14,7 +14,7 @@ export interface ContactInfo {
 }
 
 export const contactData: ContactInfo = {
-  email: 'maulanarafi.work@gmail.com',
+  email: 'maulanarafi96002@gmail.com',
   linkedin: 'https://www.linkedin.com/in/maulana-rafii/',
   github: 'https://github.com/maurafi',
   location: 'Karawang & Bekasi, Jawa Barat, Indonesia',

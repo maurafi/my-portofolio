@@ -11,8 +11,7 @@ export const projects: Project[] = [
     id: 'dashboard-quality-analysis',
     title: 'Dashboard Quality Analysis',
     slug: 'dashboard-quality-analysis',
-    shortDescription:
-      'Dashboard analitik interaktif berbasis Python dan Streamlit untuk eksplorasi dan visualisasi tren polutan kualitas udara lintas kota di Tiongkok.',
+    shortDescription: 'Dashboard analitik interaktif berbasis Python dan Streamlit untuk eksplorasi dan visualisasi tren polutan kualitas udara lintas kota di Tiongkok.',
     longDescription:
       'Proyek data analytics terapan yang berfokus pada data cleaning, exploratory data analysis (EDA), serta visualisasi interaktif indikator polusi udara (PM2.5, PM10, SO2, NO2, CO, O3). Membantu audiens mengamati fluktuasi polusi udara secara musiman dan komparasi multistasiun melalui antarmuka web interaktif.',
     role: 'Dashboard Developer & Data Analyst',
@@ -23,14 +22,10 @@ export const projects: Project[] = [
     technologies: ['Python', 'Streamlit', 'Pandas', 'Matplotlib', 'Seaborn'],
     tags: ['Data Analytics', 'EDA', 'Dashboard', 'Streamlit', 'Air Quality'],
     image: '/assets/img/projects/air-quality.svg',
-    problem:
-      'Dataset multivariat kualitas udara perkotaan memiliki dimensi besar dan noise yang membutuhkan pra-pemrosesan terstruktur agar pola polutan berkala dapat dipahami oleh masyarakat umum.',
-    approach:
-      'Melakukan penanganan missing values, transformasi data time-series dengan Pandas, formulasi visualisasi distribusi polutan, dan pengemasan antarmuka web interaktif berbasis Streamlit.',
-    contribution:
-      'Merancang dan mengeksekusi pipeline analitika data dari tahap data wrangling, analisis statistik deskriptif, perancangan tata letak visual, hingga deployment cloud mandiri.',
-    outcomes:
-      'Aplikasi web dashboard berhasil diluncurkan secara publik dan dapat diakses daring untuk analisis indikator indeks kualitas udara secara interaktif.',
+    problem: 'Dataset multivariat kualitas udara perkotaan memiliki dimensi besar dan noise yang membutuhkan pra-pemrosesan terstruktur agar pola polutan berkala dapat dipahami oleh masyarakat umum.',
+    approach: 'Melakukan penanganan missing values, transformasi data time-series dengan Pandas, formulasi visualisasi distribusi polutan, dan pengemasan antarmuka web interaktif berbasis Streamlit.',
+    contribution: 'Merancang dan mengeksekusi pipeline analitika data dari tahap data wrangling, analisis statistik deskriptif, perancangan tata letak visual, hingga deployment cloud mandiri.',
+    outcomes: 'Aplikasi web dashboard berhasil diluncurkan secara publik dan dapat diakses daring untuk analisis indikator indeks kualitas udara secara interaktif.',
     demoUrl: 'https://maurafi-aqi.streamlit.app/',
     githubUrl: 'https://github.com/maurafi/air-quality-data-analysis-dicoding',
     featured: true,
@@ -40,8 +35,7 @@ export const projects: Project[] = [
     id: 'fashlova',
     title: 'Fashlova — Sustainable Fashion Platform',
     slug: 'fashlova-sustainable-fashion',
-    shortDescription:
-      'Konsep platform digital sirkular fashion yang mengintegrasikan preloved marketplace, jejaring komunitas, dan edukasi keberlanjutan pakaian.',
+    shortDescription: 'Konsep platform digital sirkular fashion yang mengintegrasikan preloved marketplace, jejaring komunitas, dan edukasi keberlanjutan pakaian.',
     longDescription:
       'Inisiatif solusi digital untuk menekan limbah tekstil melalui ekosistem sirkular mode. Menghadirkan fitur kurasi pakaian preloved terverifikasi, sistem reward pengurangan jejak karbon, serta ruang kolaborasi antarpengguna untuk memperpanjang siklus hidup busana.',
     role: 'Project Leader',
@@ -52,14 +46,10 @@ export const projects: Project[] = [
     technologies: ['Figma', 'Business Model Canvas', 'System Analysis', 'User Flow', 'Canva'],
     tags: ['Circular Economy', 'Project Leadership', 'Sustainable Fashion', 'Business Plan'],
     image: '/assets/img/projects/fashlova.svg',
-    problem:
-      'Tingginya timbunan limbah industri fashion cepat (fast fashion) diiringi minimnya platform jual-beli pakaian bekas lokal yang terpercaya, terkurasi kualitasnya, dan mampu mengukur dampak lingkungan.',
-    approach:
-      'Merumuskan model bisnis ekonomi sirkular berbasis insentif, menyusun alur pengguna (user flow) dari tahap listing hingga verifikasi mutu, serta mendesain prototipe antarmuka interaktif.',
-    contribution:
-      'Memimpin 4 anggota tim, mengarahkan perumusan ide bisnis, menyusun dokumen strategi kompetisi, dan mengawal pembuatan prototipe desain antarmuka aplikasi pada Figma.',
-    outcomes:
-      'Berhasil menembus babak Semifinalis pada ajang Business Plan Competition tingkat perguruan tinggi dari sekitar 50 tim peserta nasional.',
+    problem: 'Tingginya timbunan limbah industri fashion cepat (fast fashion) diiringi minimnya platform jual-beli pakaian bekas lokal yang terpercaya, terkurasi kualitasnya, dan mampu mengukur dampak lingkungan.',
+    approach: 'Merumuskan model bisnis ekonomi sirkular berbasis insentif, menyusun alur pengguna (user flow) dari tahap listing hingga verifikasi mutu, serta mendesain prototipe antarmuka interaktif.',
+    contribution: 'Memimpin 4 anggota tim, mengarahkan perumusan ide bisnis, menyusun dokumen strategi kompetisi, dan mengawal pembuatan prototipe desain antarmuka aplikasi pada Figma.',
+    outcomes: 'Berhasil menembus babak Semifinalis pada ajang Business Plan Competition tingkat perguruan tinggi dari sekitar 50 tim peserta nasional.',
     figmaUrl: 'https://figma.com',
     featured: true,
   },
@@ -68,8 +58,7 @@ export const projects: Project[] = [
     id: 'smart-stunting',
     title: 'Smart Stunting — Computer Vision Research',
     slug: 'smart-stunting-research',
-    shortDescription:
-      'Riset dan eksplorasi teknis pemanfaatan computer vision dan transfer learning untuk mendukung konsep skrining antropometri status gizi balita.',
+    shortDescription: 'Riset dan eksplorasi teknis pemanfaatan computer vision dan transfer learning untuk mendukung konsep skrining antropometri status gizi balita.',
     longDescription:
       'Proyek penelitian berbasis kecerdasan buatan (AI) yang mengeksplorasi penggunaan model transfer learning untuk mengenali indikator fisik dan antropometri balita dari citra. Ditujukan sebagai studi awal eksploratif instrumen skrining non-invasif ramah komunitas.',
     role: 'Research Contributor & ML Developer',
@@ -80,14 +69,10 @@ export const projects: Project[] = [
     technologies: ['Python', 'Transfer Learning', 'Computer Vision', 'Deep Learning', 'Data Preprocessing'],
     tags: ['Machine Learning', 'Computer Vision', 'Research', 'Nutrition Screening'],
     image: '/assets/img/projects/smart-stunting.svg',
-    problem:
-      'Kebutuhan metode penapisan awal status gizi anak di daerah dengan keterbatasan alat ukur antropometri memerlukan eksplorasi teknologi visual yang terjangkau dan objektif.',
-    approach:
-      'Melakukan studi literatur mendalam, mengumpulkan dan melakukan augmentasi dataset lebih dari 2.000 citra, serta menguji performa berbagai arsitektur pretrained convolutional network.',
-    contribution:
-      'Mengembangkan skrip prapemrosesan dataset, melakukan augmentasi data citra, melatih varian model transfer learning, serta mendokumentasikan metrik evaluasi eksperimen.',
-    outcomes:
-      'Menghasilkan dataset terkurasi lebih dari 2.000 gambar dan baseline performa model eksperimental pada kisaran evaluasi 75–79% (tahap riset akademis, bukan alat diagnosis medis definitif).',
+    problem: 'Kebutuhan metode penapisan awal status gizi anak di daerah dengan keterbatasan alat ukur antropometri memerlukan eksplorasi teknologi visual yang terjangkau dan objektif.',
+    approach: 'Melakukan studi literatur mendalam, mengumpulkan dan melakukan augmentasi dataset lebih dari 2.000 citra, serta menguji performa berbagai arsitektur pretrained convolutional network.',
+    contribution: 'Mengembangkan skrip prapemrosesan dataset, melakukan augmentasi data citra, melatih varian model transfer learning, serta mendokumentasikan metrik evaluasi eksperimen.',
+    outcomes: 'Menghasilkan dataset terkurasi lebih dari 2.000 gambar dan baseline performa model eksperimental pada kisaran evaluasi 75–79% (tahap riset akademis, bukan alat diagnosis medis definitif).',
     githubUrl: 'https://github.com/maurafi',
     featured: true,
   },
@@ -96,8 +81,7 @@ export const projects: Project[] = [
     id: 'palmora',
     title: 'Palmora — Blockchain-Based Supply Chain Concept',
     slug: 'palmora-blockchain-traceability',
-    shortDescription:
-      'Konsep solusi berbasis blockchain dan distributed ledger untuk transparansi dan ketertelusuran (traceability) rantai distribusi minyak kelapa sawit.',
+    shortDescription: 'Konsep solusi berbasis blockchain dan distributed ledger untuk transparansi dan ketertelusuran (traceability) rantai distribusi minyak kelapa sawit.',
     longDescription:
       'Perancangan konseptual arsitektur sistem rantai pasok kelapa sawit yang mengintegrasikan pencatatan terdesentralisasi dari tingkat perkebunan, pabrik kelapa sawit (PKS), hingga distribusi konsumen. Memastikan kepatuhan audit sertifikasi lingkungan dan validitas asal-usul komoditas.',
     role: 'Project Leader',
@@ -107,15 +91,11 @@ export const projects: Project[] = [
     category: 'System Analysis',
     technologies: ['Blockchain Concept', 'System Analysis', 'Business Process Modeling', 'Figma'],
     tags: ['Blockchain', 'Supply Chain', 'Traceability', 'System Architecture'],
-    image: '/assets/img/projects/palmora.svg',
-    problem:
-      'Rantai distribusi minyak kelapa sawit yang panjang kerap terkendala oleh asimetri informasi, risiko pemalsuan data asal-usul tandan buah segar, serta kesulitan pembuktian legalitas lahan ramah lingkungan.',
-    approach:
-      'Memetakan titik serah terima barang (custody transfer), mendefinisikan smart contract log untuk setiap tahapan pemrosesan, dan merancang konsep dashboard audit bagi pemangku kepentingan.',
-    contribution:
-      'Menginisiasi konsep inovasi, memimpin koordinasi tim dalam menganalisis kebutuhan fungsional sistem, merancang model aliran data, serta menyusun proposal rencana bisnis.',
-    outcomes:
-      'Meraih Juara 1 Business Plan Competition melalui pembuktian konsep arsitektur transparansi distribusi yang aplikatif dan bernilai strategis tinggi.',
+    image: '/assets/img/projects/palmora.png',
+    problem: 'Rantai distribusi minyak kelapa sawit yang panjang kerap terkendala oleh asimetri informasi, risiko pemalsuan data asal-usul tandan buah segar, serta kesulitan pembuktian legalitas lahan ramah lingkungan.',
+    approach: 'Memetakan titik serah terima barang (custody transfer), mendefinisikan smart contract log untuk setiap tahapan pemrosesan, dan merancang konsep dashboard audit bagi pemangku kepentingan.',
+    contribution: 'Menginisiasi konsep inovasi, memimpin koordinasi tim dalam menganalisis kebutuhan fungsional sistem, merancang model aliran data, serta menyusun proposal rencana bisnis.',
+    outcomes: 'Meraih Juara 1 Business Plan Competition melalui pembuktian konsep arsitektur transparansi distribusi yang aplikatif dan bernilai strategis tinggi.',
     featured: true,
   },
 
@@ -123,8 +103,7 @@ export const projects: Project[] = [
     id: 'asama-inventory-traceability',
     title: 'IT Inventory & Data Administration Improvement',
     slug: 'asama-it-inventory-improvement',
-    shortDescription:
-      'Dukungan operasional IT, pemutakhiran data web inventory aset, troubleshooting, serta pemetaan keterlacakan aset dengan dokumentasi Change Management di PT Asama Indonesia Manufacturing.',
+    shortDescription: 'Dukungan operasional IT, pemutakhiran data web inventory aset, troubleshooting, serta pemetaan keterlacakan aset dengan dokumentasi Change Management di PT Asama Indonesia Manufacturing.',
     longDescription:
       'Inisiatif magang industri yang berfokus pada penguatan akurasi master data inventaris web IT, penanganan kendala teknis pengguna (hardware & software), serta peningkatan keterlacakan riwayat perubahan perangkat (Change Management) dengan tetap menjaga ketat kerahasiaan data internal perusahaan.',
     role: 'IT Intern',
@@ -134,14 +113,10 @@ export const projects: Project[] = [
     technologies: ['Web Inventory Assets', 'Change Management', 'Asset Traceability', 'IT Administration', 'Troubleshooting'],
     tags: ['IT Operations', 'Asset Management', 'Change Management', 'Industrial IT'],
     image: '/assets/img/projects/asama-inventory.svg',
-    problem:
-      'Intensitas pemeliharaan dan pergerakan perangkat IT di lingkungan manufaktur memerlukan pembaruan inventaris web yang presisi serta keterkaitan yang jelas dengan dokumen permohonan perubahan teknis.',
-    approach:
-      'Melakukan verifikasi master data perangkat keras dan periferal pada web inventory, mendukung resolusi tiket kendala operasional, dan merumuskan alur penelusuran hubungan antara aset dan formulir Change Management.',
-    contribution:
-      'Memutakhirkan catatan web inventory secara berkala, membantu troubleshooting workstation pengguna, serta mengorganisir dokumen kendali administrasi divisi IT manufaktur.',
-    outcomes:
-      'Meningkatkan kerapian dokumentasi aset TI, mempercepat proses penelusuran riwayat pergantian suku cadang atau spesifikasi perangkat, serta menjaga kepatuhan kontrol operasional.',
+    problem: 'Intensitas pemeliharaan dan pergerakan perangkat IT di lingkungan manufaktur memerlukan pembaruan inventaris web yang presisi serta keterkaitan yang jelas dengan dokumen permohonan perubahan teknis.',
+    approach: 'Melakukan verifikasi master data perangkat keras dan periferal pada web inventory, mendukung resolusi tiket kendala operasional, dan merumuskan alur penelusuran hubungan antara aset dan formulir Change Management.',
+    contribution: 'Memutakhirkan catatan web inventory secara berkala, membantu troubleshooting workstation pengguna, serta mengorganisir dokumen kendali administrasi divisi IT manufaktur.',
+    outcomes: 'Meningkatkan kerapian dokumentasi aset TI, mempercepat proses penelusuran riwayat pergantian suku cadang atau spesifikasi perangkat, serta menjaga kepatuhan kontrol operasional.',
     featured: true,
   },
 ];

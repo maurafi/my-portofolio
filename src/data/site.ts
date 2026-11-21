@@ -19,7 +19,7 @@ export const siteConfig: SiteConfig = {
   email: 'maulanarafi.work@gmail.com',
   location: 'Karawang & Bekasi, Indonesia',
   availability: 'Open for Project Leadership, System Analysis & Data Roles',
-  profileImage: '/assets/profile/profile.jpg',
+  profileImage: '/assets/profile/profiles.jpg',
   resume: {
     label: 'Download CV',
     href: '/resume/Maulana_Rafi_Resume.pdf',
@@ -27,7 +27,7 @@ export const siteConfig: SiteConfig = {
   socialLinks: {
     github: 'https://github.com/maurafi',
     linkedin: 'https://www.linkedin.com/in/maulana-rafii/',
-    email: 'mailto:maulanarafi.work@gmail.com',
+    email: 'mailto:maulanarafi96002@gmail.com',
   },
   brand: {
     shortName: 'MR',
@@ -67,20 +67,17 @@ export const siteConfig: SiteConfig = {
   focusAreas: [
     {
       title: 'Project Leadership',
-      description:
-        'Memimpin koordinasi tim multidisiplin, menyusun perencanaan strategis, mengelola risiko, dan mengawal eksekusi inisiatif organisasi maupun kompetisi hingga tuntas.',
+      description: 'Memimpin koordinasi tim multidisiplin, menyusun perencanaan strategis, mengelola risiko, dan mengawal eksekusi inisiatif organisasi maupun kompetisi hingga tuntas.',
       tags: ['Cross-functional Coordination', 'Strategic Planning', 'Risk Mitigation', 'Stakeholder Management'],
     },
     {
       title: 'System Analysis',
-      description:
-        'Mengidentifikasi permasalahan proses bisnis, memetakan alur operasional, merumuskan spesifikasi kebutuhan sistem, dan menyelaraskan alur data dengan dokumentasi kendali.',
+      description: 'Mengidentifikasi permasalahan proses bisnis, memetakan alur operasional, merumuskan spesifikasi kebutuhan sistem, dan menyelaraskan alur data dengan dokumentasi kendali.',
       tags: ['Requirements Analysis', 'Process Mapping', 'Change Management', 'Traceability Flow'],
     },
     {
       title: 'Data Analytics',
-      description:
-        'Mengolah dan memvalidasi dataset mentah, melakukan exploratory data analysis (EDA), serta membangun visualisasi metrik dan dashboard interaktif untuk mendukung pengambilan keputusan.',
+      description: 'Mengolah dan memvalidasi dataset mentah, melakukan exploratory data analysis (EDA), serta membangun visualisasi metrik dan dashboard interaktif untuk mendukung pengambilan keputusan.',
       tags: ['Python', 'Pandas', 'Streamlit', 'Exploratory Data Analysis', 'Data Validation'],
     },
   ],
@@ -112,19 +109,8 @@ export const siteConfig: SiteConfig = {
   ],
   seo: {
     title: 'Maulana Rafi — Portfolio | Project Leadership, System Analysis & Data Analytics',
-    description:
-      'Portofolio profesional Maulana Rafi, mahasiswa Sistem Informasi dengan fokus pada Project Leadership, System Analysis, dan Data Analytics.',
-    keywords: [
-      'Maulana Rafi',
-      'Portofolio Sistem Informasi',
-      'Project Leadership',
-      'System Analysis',
-      'Data Analytics',
-      'UNSIKA',
-      'Fashlova',
-      'Palmora',
-      'Smart Stunting',
-    ],
+    description: 'Portofolio profesional Maulana Rafi, mahasiswa Sistem Informasi dengan fokus pada Project Leadership, System Analysis, dan Data Analytics.',
+    keywords: ['Maulana Rafi', 'Portofolio Sistem Informasi', 'Project Leadership', 'System Analysis', 'Data Analytics', 'UNSIKA', 'Fashlova', 'Palmora', 'Smart Stunting'],
     author: 'Maulana Rafi',
   },
   footer: {
