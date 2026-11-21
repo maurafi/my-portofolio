@@ -13,9 +13,9 @@ export const siteConfig: SiteConfig = {
   headline: 'Turning Problems Into Structured Solutions.',
   role: ['Project Leadership', 'System Analysis', 'Data Analytics'],
   shortDescription:
-    'Mahasiswa Sistem Informasi dengan fokus pada Project Leadership, System Analysis, dan Data Analytics. Memiliki pengalaman dalam mengelola inisiatif organisasi, menganalisis proses operasional, mengolah data, serta mengembangkan solusi berbasis teknologi.',
+    'Mahasiswa Sistem Informasi dengan fokus pada Project Leadership, System Analysis, dan Data Analytics. Memiliki pengalaman dalam mengelola inisiatif organisasi, khususnya sebagai Ketua Divisi Edukasi Himsika, menganalisis proses operasional, mengolah data, serta mengembangkan solusi berbasis teknologi.',
   longDescription:
-    'Mengeksplorasi titik temu antara kepemimpinan proyek, analisis sistem, dan analitika data untuk mengubah tantangan kompleks menjadi solusi nyata yang terstruktur, berdampak, dan terukur. Berfokus pada pemecahan masalah operasional industri, inisiatif keberlanjutan, serta pengembangan prototipe berbasis teknologi.',
+    'Fokus mengeksplorasi aktivitas yang mengembangkan kemampuan kepemimpinan, analisis sistem, dan analitika data untuk mengubah tantangan kompleks menjadi solusi nyata yang terstruktur, berdampak, dan terukur. Berfokus pada pemecahan masalah operasional industri, inisiatif keberlanjutan, serta pengembangan prototipe berbasis teknologi.',
   email: 'maulanarafi.work@gmail.com',
   location: 'Karawang & Bekasi, Indonesia',
   availability: 'Open for Project Leadership, System Analysis & Data Roles',
@@ -49,14 +49,14 @@ export const siteConfig: SiteConfig = {
       description: 'Universitas Singaperbangsa Karawang (Sistem Informasi)',
     },
     {
-      value: '3×',
+      value: '4×',
       label: 'Juara 1 Business Plan',
-      description: 'AUP CUP 2026, Veternity Beraksi 2026, Kokesma Fest 2026',
+      description: 'AUP CUP 2026, Veternity Beraksi 2026, Kokesma Fest 2026, Compfair Fasilkom 2025',
     },
     {
-      value: '1.600+',
-      label: 'Partisipan Edufair',
-      description: 'Skala nasional dengan 55 panitia & 50+ institusi pendidikan',
+      value: '5',
+      label: 'Kontribusi Projek',
+      description: 'Dashboard Quality Analysis, Fashlova, Smart Stunting, Palmora, IT Inventory',
     },
     {
       value: '2.000+',
@@ -66,7 +66,7 @@ export const siteConfig: SiteConfig = {
   ],
   focusAreas: [
     {
-      title: 'Project Leadership',
+      title: 'Project Management',
       description: 'Memimpin koordinasi tim multidisiplin, menyusun perencanaan strategis, mengelola risiko, dan mengawal eksekusi inisiatif organisasi maupun kompetisi hingga tuntas.',
       tags: ['Cross-functional Coordination', 'Strategic Planning', 'Risk Mitigation', 'Stakeholder Management'],
     },

@@ -18,19 +18,12 @@ export default function Projects() {
 
   const categories = ['All', 'Data Analytics', 'Project Management', 'System Analysis', 'Research'];
 
-  const filteredProjects =
-    activeCategory === 'All'
-      ? projects
-      : projects.filter((project) => project.category === activeCategory);
+  const filteredProjects = activeCategory === 'All' ? projects : projects.filter((project) => project.category === activeCategory);
 
   return (
     <Section id="projects" className="py-20">
       <Container>
-        <SectionHeader
-          eyebrow="Selected Works"
-          title="Karya Terpilih & Studi Kasus"
-          description="Inisiatif dan proyek yang membuktikan kemampuan pemecahan masalah nyata, perumusan arsitektur sistem, kepemimpinan koordinasi tim, serta analitika data."
-        >
+        <SectionHeader eyebrow="Selected Works" title="Proyek Saya" description="Proyek yang dibangun selama beberapa tahun terakhir terkait dengan kemampuan pemecahan masalah, analisa sistem, dan analitika data.">
           {/* Category Filter Tabs */}
           <div className="flex flex-wrap items-center gap-2 pt-2">
             {categories.map((cat) => (
@@ -40,11 +33,7 @@ export default function Projects() {
                 onClick={() => setActiveCategory(cat)}
                 className={`
                   rounded-full px-4 py-1.5 text-xs font-semibold transition-all
-                  ${
-                    activeCategory === cat
-                      ? 'bg-primary text-primary-foreground shadow-sm'
-                      : 'border border-border bg-card text-muted-foreground hover:bg-muted hover:text-foreground'
-                  }
+                  ${activeCategory === cat ? 'bg-primary text-primary-foreground shadow-sm' : 'border border-border bg-card text-muted-foreground hover:bg-muted hover:text-foreground'}
                 `}
               >
                 {cat === 'All' ? 'Semua Proyek' : cat}
